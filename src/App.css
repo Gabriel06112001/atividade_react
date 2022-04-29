@@ -1,0 +1,33 @@
+
+.App-header {
+  background-color: #16348d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
+ 
+}
+.cabecalho{
+  background-color: rgb(13, 51, 85);
+  width: 100%;
+  height: 50px;
+  margin-top: -20px;
+  text-align: center;
+
+}
+.menu{
+  background-color: rgb(125, 81, 167);
+  width: 100%;
+  height: 40px;
+  margin-top: -15px;
+}
+
+
+.fundo{
+  width: 100%;
+  height: 500px;
+  
+}
+
+
+
