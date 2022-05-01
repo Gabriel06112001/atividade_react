@@ -1,33 +1,107 @@
 
-.App-header {
-  background-color: #16348d;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
- 
- 
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-.cabecalho{
-  background-color: rgb(13, 51, 85);
-  width: 100%;
-  height: 50px;
-  margin-top: -20px;
-  text-align: center;
+.center{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main{
+  padding: 40px 0 ;
+  background-color: aqua;
+  min-height: 400px;
+  background-image: url("https://cursos.dankicode.com/app/Views/public/images/home/banner-home.png") ;
+  background-position: center;
+  background-size: cover;
+  min-height: 488px;
 
 }
 .menu{
-  background-color: rgb(125, 81, 167);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.menu h3{
+  color: white;
+
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 3px 8px;
+  border-radius: 8px;
+}
+
+.form{
+ 
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form h2{
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 28px;
+
+}
+form input[type=text]{
+  width: 30%;
+  justify-content: space-around;
+  height: 30px;
+  margin: 8px 0px;
+
+}
+.itens-form {
+  margin: 0 auto;
+  max-width: 548px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.itens-form input[type=text]{
+  width: 48%;
+  height: 30px;
+  margin: 8px 0px;
+  padding-left: 10px;
+}
+.itens-form input[type=submit]{
   width: 100%;
   height: 40px;
-  margin-top: -15px;
+  background-color: #3634a3 ;
+  cursor: pointer;
+  color:white;
+  border: 0;
+  font-size: 19px;
+
+}
+.conteudo-single{
+  margin-top: 40px;
+  width: 50%;
+  padding: 8px 30px ;
+  background-color: rgba(188, 189, 212, 0.671);
 }
 
-
-.fundo{
-  width: 100%;
-  height: 500px;
-  
+@media screen and (max-width: 768px){
+  .items-form input[type=text]{
+    width: 100%;
+    
+  }
+  .conteudo-single{width: 100%;}
 }
-
 
 
